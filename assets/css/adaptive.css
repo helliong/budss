@@ -1,0 +1,1003 @@
+/* Монитор 22" */
+
+@media (max-width: 1536px) {
+
+
+    /* NAVIGATION */
+    .navContainer {
+        margin: 0 100px;
+    }
+
+    .nav {
+        padding: 5px 0 10px 0;
+        background-color: #FFAA4C;
+    }
+
+
+    /* COOKIE */
+    .cookieInfo {
+        margin-left: 30px;
+        margin-top: 14px;
+        color: #383838;
+        line-height: 25px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .closeCookie {
+        cursor: pointer;
+        position: absolute;
+        margin-top: -1vh;
+        margin-left: 95.5%;
+    }
+
+    .buttonsCookie > button {
+        display: flex;
+        margin-top: -5px;
+    }
+
+    .buttonDecline {
+        position: absolute;
+        margin-left: 121vh;
+        background-color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+        cursor: pointer;
+        padding: 15px 35px;
+        border: 3px solid #954CED;
+        border-radius: 15px;
+    }
+
+    .buttonAccept {
+        position: absolute;
+        background-color: #954CED;
+        margin-left: 100vh;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 15px 35px;
+        border: 3px solid #954CED;
+        border-radius: 15px;
+    }
+
+    .buttonsCookie {
+        margin-left: 30px;
+    }
+
+
+    /* NAV-INFO */
+    .HeaderInfoContainer {
+        margin: 0 100px;
+    }
+
+    .heroContainer {
+        margin: 20vh 0 0 0;
+    }
+
+    .buttonHeader > button {
+        background-color: #954CED;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .heroContainer > .title {
+        color: white;
+        line-height: 100px;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 86px;
+    }
+
+    .girlHeader {
+        position: absolute;
+        overflow: clip;
+        margin-left: 115.1vh;
+        margin-top: 13.2vh;
+    }
+
+    .girlHeader > img {
+        overflow: clip;
+        width: 41.4vw;
+    }
+
+    /* MAIN */
+    .main {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 130vh;
+        background-color: #181818;
+        color: white;
+    }
+
+    .aboutContainer > .aboutTitle {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 86px;
+    }
+
+    .aboutContainer > .aboutInfo {
+        position: absolute;
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 36px;
+        padding: 0 1010px 0 0;
+    }
+
+    .d2 {
+        position: absolute;
+        margin: 31vh 0 0 20vh;
+        width: 350px;
+        height: 40px;
+        background: #A64CED;
+        border-radius: 40px/40px;
+        transform: rotate(-2.5deg);
+    }
+
+    .goodsImg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .aboutGoodsFirstRow {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40%;
+
+    }
+
+    .firstGood {
+        position: absolute;
+        margin-right: -33vh;
+    }
+
+    .firstGood > .goodTitle {
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .firstGood > .goodInfo {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .secondGood > .goodTitle {
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .secondGood > .goodInfo {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .aboutGoodsSecondRow {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40%;
+    }
+
+    .thirdGood > .goodTitle {
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .thirdGood > .goodInfo {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .fourthGood > .goodTitle {
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .fourthGood > .goodInfo {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+
+    .howWorks {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 110vh;
+        background-color: #181818;
+        color: white;
+    }
+
+    .phone > img {
+        position: absolute;
+        width: 350px;
+        margin: 6% 41%;
+        opacity: 1;
+    }
+
+    .firstRow {
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        margin-top: 20vh;
+        font-size: 126px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .secondRow {
+        position: absolute;
+        display: flex;
+        margin-top: 46vh;
+        font-size: 126px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .thirdRow {
+        position: absolute;
+        display: flex;
+        margin-top: 71vh;
+        font-size: 126px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .percents {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 30vh;
+        background-color: #954CED;
+        color: white;
+    }
+
+    .percentages {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.5vh 36vh 0 56vh;
+        opacity: 0;
+    }
+
+
+    .whyBudss {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 150vh;
+        background-color: #181818;
+        color: white;
+    }
+
+
+    .whyBudssContainer {
+        margin: 0 100px;
+        opacity: 0;
+    }
+
+    .whyBudssSolutions > p {
+
+        margin-top: 20px;
+        padding: 0 318px 0 313px;
+
+    }
+
+    .d3 {
+        position: absolute;
+        margin: 20.7vh 0 0 62vh;
+        width: 385px;
+        height: 40px;
+        background: #A64CED;
+        border-radius: 40px 40px;
+        transform: rotate(-2deg);
+    }
+
+
+    .whyBudsImgsFirstRow {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+
+    .whyBudsImgsFirstRow > .img1 {
+        width: 39em;
+    }
+
+    .whyBudsImgsFirstRow > .img2 {
+        width: 30em;
+    }
+
+    .whyBudsImgsSecondRow {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+    .whyBudsImgsSecondRow > .img3 {
+        width: 30em;
+    }
+
+    .whyBudsImgsSecondRow > .img4 {
+        width: 39em;
+    }
+
+
+    .brandAwarenessContainer {
+        margin: 130px 100px;
+    }
+
+    .brands {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 150vh;
+        background-color: #F5F5F5;
+        color: #000000;
+        opacity: 0;
+    }
+
+    .letYourBusinessGrow {
+        border: 1px solid #bdbbbb;
+        border-radius: 40px;
+        padding: 100px 0 100px 0;
+        margin: 100px 100px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .brandAwarenessTitle {
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 100px;
+        margin-right: 40%;
+    }
+
+    a > .facebook {
+        position: absolute;
+        margin-left: 109vh;
+        margin-top: 5vh;
+    }
+
+    a > .twitter {
+        position: absolute;
+        margin-left: 127vh;
+        margin-top: 15vh;
+    }
+
+    a > .instagram {
+        position: absolute;
+        margin-left: 146vh;
+        margin-top: 5vh;
+    }
+
+    a > .tiktok {
+        position: absolute;
+        margin-left: 167vh;
+        margin-top: 15vh;
+    }
+
+    .footerContainer {
+        margin: 0 100px;
+    }
+
+    .footer {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 24vh;
+        background-color: #181818;
+        color: #F5F5F5;
+    }
+
+    .download {
+        position: absolute;
+        margin-left: 120vh;
+        margin-top: 5px;
+    }
+
+    .footerContainer > button {
+        position: absolute;
+        background-color: #954CED;
+        margin-left: 94vh;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+    }
+}
+
+/* iPhone XR */
+
+
+@media (max-width: 414px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&family=Outfit:wght@300;400;500;600;700;800;900&family=Raleway:wght@500&family=Roboto+Slab:wght@700&display=swap');
+
+    button {
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .navContainer {
+        margin: 0;
+    }
+
+    .main {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 162vh;
+        background-color: #181818;
+        color: white;
+    }
+
+    .HeaderInfoContainer {
+        margin: 0 15px;
+    }
+
+    .burger {
+        margin-top: 18px;
+        display: block;
+        margin-right: 12px;
+        justify-content: space-between;
+    }
+
+    .bur1, .bur2, .bur3 {
+        width: 24px;
+        height: 2px;
+        background: #FFFFFF;
+        border-radius: 40px/40px;
+    }
+
+    .bur2 {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .burgerMenu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #8c4949;
+    }
+
+    .burgerMenuContainer {
+        margin: 25% 20%;
+    }
+
+    .burgerMenuButton > button {
+        background-color: #954CED;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .buttonHeader > button {
+        visibility: hidden;
+        background-color: #954CED;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .heroContainer {
+        margin: 10vh 0 0 0;
+    }
+
+    .heroContainer > p {
+        margin-left: 15px;
+    }
+
+    .heroContainer > .title {
+        color: white;
+        line-height: 50px;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .heroContainer > .info {
+        color: white;
+        font-weight: 400;
+        margin-top: 18px;
+        font-size: 20px;
+    }
+
+    .buttonHero > button {
+        margin-left: 14px;
+        margin-top: 4vh;
+        background-color: #954CED;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 5% 30.5%;
+        border-radius: 15px;
+    }
+
+    .cookie {
+        visibility: hidden;
+    }
+
+    .girlHeader {
+        position: absolute;
+        overflow: clip;
+        margin-left: 8.099999999999994vh;
+        margin-top: 54.2vh;
+    }
+
+    .girlHeader > img {
+        overflow: clip;
+        width: 82.4vw;
+    }
+
+    .aboutContainer {
+        margin: 0 15px;
+    }
+
+    .aboutContainer > .aboutTitle {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .aboutContainer > .aboutInfo {
+        position: absolute;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        padding: 0 62px 0 0;
+    }
+
+    .d2 {
+        position: absolute;
+        margin: 18.5vh 0 0 7vh;
+        width: 289px;
+        height: 31px;
+        background: #A64CED;
+        border-radius: 40px/40px;
+        transform: rotate(-2deg);
+    }
+
+    .aboutGoodsFirstRow {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-top: 200px;
+    }
+
+    .secondGood {
+        margin-top: 300px;
+        margin-left: 0;
+    }
+
+    .firstGood > .goodTitle {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .firstGood > .goodInfo {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .goodsImg {
+        width: 94px;
+        height: 94px;
+    }
+
+    .sideLogo {
+        position: absolute;
+        visibility: hidden;
+        margin-top: 38vh;
+    }
+
+    .secondGood > .goodTitle {
+        font-weight: 700;
+        font-size: 36px;
+        padding-right: 500px;
+    }
+
+    .secondGood > .goodInfo {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .aboutGoodsSecondRow {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-top: 800px;
+    }
+
+    .thirdGood {
+        position: fixed;
+        margin-right: -29vh;
+    }
+
+    .thirdGood > .goodTitle {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .thirdGood > .goodInfo {
+        font-weight: 400;
+        font-size: 15px;
+        padding-right: 350px;
+        margin-top: 10px;
+    }
+
+    .fourthGood {
+        position: absolute;
+        margin-left: 0;
+        margin-top: 300px
+    }
+
+    .fourthGood > .goodTitle {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .fourthGood > .goodInfo {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-right: 410px;
+    }
+
+    .howWorks {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 89vh;
+        background-color: #181818;
+        color: white;
+    }
+
+    .phone > img {
+        position: absolute;
+        width: 303px;
+        margin: 25% 14%;
+        opacity: 1;
+    }
+
+    .firstRow {
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        margin-top: 20vh;
+        font-size: 70px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .secondRow {
+        position: absolute;
+        display: flex;
+        margin-top: 43vh;
+        font-size: 70px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .thirdRow {
+        position: absolute;
+        display: flex;
+        margin-top: 66vh;
+        font-size: 70px;
+        font-weight: 700;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .percents {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 44vh;
+        background-color: #954CED;
+        color: white;
+    }
+
+    .percentages {
+        display: block;
+        justify-content: space-between;
+        margin: 50px 15px;
+        opacity: 0;
+    }
+
+    .percentageInfo {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .firstPercentage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .secondPercentage {
+        display: flex;
+        margin: 50px 50px 50px 0;
+        justify-content: space-between;
+
+    }
+
+    .thirdPercentage {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 25px;
+    }
+
+    .percentageTitle {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .whyBudssContainer {
+        margin: 0 15px;
+        opacity: 0;
+    }
+
+    .whyBudssTitle {
+        text-align: center;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    .whyBudssSolutions {
+        position: relative;
+        font-weight: 600;
+        font-size: 26px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .whyBudssSolutions > p {
+        margin: 0 -349px 0 -341px;
+    }
+
+    .d3 {
+        position: absolute;
+        margin: 112px 0 0 121px;
+        width: 265px;
+        height: 30px;
+        background: #A64CED;
+        border-radius: 40px 40px;
+        transform: rotate(-2deg);
+    }
+
+    .whyBudsImgsFirstRow {
+        display: block;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .whyBudsImgsFirstRow > .img1 {
+        width: 24em;
+    }
+
+    .whyBudsImgsFirstRow > .img2 {
+        width: 24em;
+        margin-top: 15px;
+    }
+
+    .whyBudsImgsSecondRow {
+        display: block;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .whyBudsImgsSecondRow > .img3 {
+        width: 24em;
+    }
+
+    .whyBudsImgsSecondRow > .img4 {
+        width: 24em;
+        margin-top: 15px;
+    }
+
+    .letYourBusinessGrow > button {
+        background-color: #954CED;
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+        padding: 25px 90px 25px 90px;
+        border-radius: 16px;
+        margin-top: 30px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .letYourBusinessGrow {
+        border: 1px solid #bdbbbb;
+        border-radius: 98px;
+        padding: 50px 0 60px 0;
+        margin: 100px 10px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .brandAwarenessContainer {
+        margin: 10px 10px;
+    }
+
+    .brandAwarenessTitle {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 1;
+        margin-right: 10px;
+    }
+
+    .brandAwarenessInfo {
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 57px;
+    }
+
+    a > .facebook {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 26vh;
+    }
+
+    a > .twitter {
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 36vh;
+    }
+
+    a > .instagram {
+        position: absolute;
+        margin-left: 210px;
+        margin-top: 26vh;
+    }
+
+    a > .tiktok {
+        position: absolute;
+        margin-left: 310px;
+        margin-top: 36vh;
+    }
+
+    .commerceBrands {
+        display: block;
+        margin-top: 249px;
+    }
+
+    .commerceBrands > img {
+        position: absolute;
+        margin-right: 30px;
+    }
+
+    .woo_commerce {
+        margin-top: 80px;
+    }
+
+    .shopify {
+        width: 150px;
+        margin-left: 180px;
+    }
+
+    .clover {
+        width: 150px;
+        margin-top: 180px;
+    }
+
+    .squarespace {
+        width: 200px;
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+
+    .square {
+        width: 150px;
+    }
+
+    .footer {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 70vh;
+        background-color: #181818;
+        color: #F5F5F5;
+    }
+
+    .footerContainer {
+        margin: 10px 10px;
+    }
+
+    .footerContainer > button {
+        position: absolute;
+        background-color: #954CED;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 300px;
+    }
+
+    .forWho {
+        font-size: 25px;
+        position: absolute;
+        display: block;
+        margin: 65px 10px 260px;
+    }
+
+    a > p {
+        margin: 10px 0 0 0;
+    }
+
+    .policies {
+        position: absolute;
+        display: block;
+        font-weight: 300;
+        color: #F5F5F5;
+        margin-top: 65px;
+        font-size: 25px;
+    }
+
+    .policies > a > p:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .policies > a > p {
+        margin: 10px 10px;
+        text-decoration: none;
+    }
+
+    .copyright {
+        margin-top: 60px;
+    }
+
+    .download {
+        display: grid;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 400px;
+    }
+
+    .footerLine {
+        display: none;
+    }
+    
+
+}
+
