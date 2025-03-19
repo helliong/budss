@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&family=Outfit:wght@300;400;500;600;700;800;900&family=Raleway:wght@500&family=Roboto+Slab:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+}
+
+/* FOR BUSINESS AND CUSTOMERS STYLES */
+
+.navContainer {
+    margin: 0 150px;
+}
+
+.nav {
+    padding: 5px 0 10px 0;
+    background-color: #FFAA4C;
+}
+
+.navContainer > a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navContainer > .business {
+    font-weight: 500;
+    color: white;
+    background-color: #181818;
+    border-radius: 20px 20px 0 0;
+    padding: 5px 40px 10px;
+}
+
+.navContainer > .customers {
+    font-weight: 500;
+    color: black;
+    background-color: #FFAA4C;
+    border-radius: 20px 20px 0 0;
+    padding: 5px 40px 10px;
+}
+
+.navContainer > .customers:hover {
+    font-weight: 500;
+    color: white;
+    background-color: #181818;
+    border-radius: 20px 20px 0 0;
+    padding: 5px 40px 10px;
+}
+
+/* MAIN HEADER */
+
+.HeaderInfoContainer {
+    margin: 0 150px;
+}
+
+.logoAndButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.burger {
+    margin-top: 18px;
+    /*display: block;*/
+    display: none;
+    margin-right: 12px;
+    justify-content: space-between;
+}
+
+.buttonHeader > button {
+    background-color: #954CED;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.hero {
+    display: flex;
+}
+
+.heroContainer {
+    margin: 20vh 0 0 50px;
+}
+
+.heroContainer > p {
+    margin-left: 150px;
+
+}
+
+.heroContainer > .title {
+    color: white;
+    line-height: 110px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.heroContainer > .info {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.buttonHero > button {
+    margin-left: 150px;
+    margin-top: 4vh;
+    background-color: #954CED;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.girlHeader {
+    position: absolute;
+    margin-left: 101.5vh;
+    margin-top: 10.1vh;
+}
+
+.girlHeader > img {
+    width: 46.9vw;
+}
+
+/* MAIN */
+
+.main {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    color: white;
+}
+
+.about {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.about.element-show {
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+
+
+.aboutContainer {
+    margin: 0 100px;
+}
+
+.aboutContainer > .aboutTitle {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.aboutContainer > .aboutInfo {
+    position: absolute;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0 1500px 0 0;
+}
+
+.d2 {
+    position: absolute;
+    margin: 30.5vh 0 0 15vh;
+    width: 350px;
+    height: 40px;
+    background: #A64CED;
+    border-radius: 40px/40px;
+    transform: rotate(-2.5deg);
+}
+
+.sideLogo {
+    position: absolute;
+    margin-top: 38vh;
+}
+
+.aboutGoodsFirstRow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+}
+
+.firstGood {
+    position: absolute;
+    margin-right: -33vh;
+}
+
+.secondGood {
+    position: absolute;
+    margin-left: 50vh;
+    margin-right: -89vh;
+}
+
+.firstGood > .goodTitle {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.firstGood > .goodInfo {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.secondGood > .goodTitle {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.secondGood > .goodInfo {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.aboutGoodsSecondRow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+
+.thirdGood > .goodTitle {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.thirdGood > .goodInfo {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.thirdGood {
+    position: absolute;
+    margin-right: -29vh;
+}
+
+.fourthGood > .goodTitle {
+
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.fourthGood > .goodInfo {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.fourthGood {
+    position: absolute;
+    margin-left: 50vh;
+    margin-right: -82vh;
+}
+
+/* HOW WORKS */
+
+
+.howWorks {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    color: white;
+}
+
+.phone > img {
+    position: absolute;
+    width: 400px;
+    margin: 6% 41%;
+    opacity: 1;
+}
+
+.firstRow {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    margin-top: 18vh;
+    font-size: 126px;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.secondRow {
+    position: absolute;
+    display: flex;
+    margin-top: 42vh;
+    font-size: 126px;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.thirdRow {
+    position: absolute;
+    display: flex;
+    margin-top: 66vh;
+    font-size: 126px;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.noColor {
+    color: #181818;
+    -webkit-text-stroke: 1px #444444;
+}
+
+.colorFirstRow {
+    color: #2FDBBC;
+}
+
+.colorSecondRow {
+    color: #A64CED;
+}
+
+.colorThirdRow {
+    color: #FFAA4C;
+}
+
+
+.tickerItemRight {
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0 50px;
+    animation: ticker 27s linear infinite;
+}
+
+.tickerItemRightFaster {
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0 50px;
+    animation: ticker 20s linear infinite;
+}
+
+.tickerItemLeft {
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0 50px;
+    animation: tickerLeft 30s linear infinite;
+}
+
+.ticker {
+    position: relative;
+    overflow: hidden;
+}
+
+.tickerWrapper {
+    display: flex
+}
+
+
+@keyframes ticker {
+    0% {
+        transform: translateX(-400%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes tickerLeft {
+    0% {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-400%);
+    }
+}
+
+.percents {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30vh;
+    background-color: #954CED;
+    color: white;
+}
+
+
+.percentages {
+    display: flex;
+    justify-content: space-between;
+    margin: 9vh 50vh;
+    opacity: 0;
+}
+
+.percentages.element-show {
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+.percentageTitle {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.percentageInfo {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.whyBudss {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 140vh;
+    background-color: #181818;
+    color: white;
+}
+
+.whyBudssContainer {
+    margin: 0 50px;
+    opacity: 0;
+}
+
+.whyBudssContainer.element-show {
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+
+.whyBudssInfo {
+    margin-top: 100px;
+}
+
+.whyBudssTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.whyBudssSolutions {
+    position: relative;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.whyBudssSolutions > p {
+    margin-top: 20px;
+    padding: 0 610px 0 620px;
+}
+
+.d3 {
+    position: absolute;
+    margin: 14.9vh 0 0 74vh;
+    width: 415px;
+    height: 40px;
+    background: #A64CED;
+    border-radius: 40px/40px;
+    transform: rotate(-2deg);
+}
+
+.whyBudsImgsFirstRow {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.whyBudsImgsSecondRow {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.whyBudsImgsFirstRow > .img1 {
+    width: 60em;
+}
+
+.whyBudsImgsFirstRow > .img2 {
+    width: 45em;
+}
+
+.whyBudsImgsSecondRow > .img3 {
+    width: 45em;
+}
+
+.whyBudsImgsSecondRow > .img4 {
+    width: 60em;
+}
+
+.brands {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 106vh;
+    background-color: #F5F5F5;
+    color: #000000;
+    opacity: 0;
+}
+
+.brands.element-show {
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+
+.letYourBusinessGrow {
+    border: 1px solid #bdbbbb;
+    border-radius: 40px;
+    padding: 100px 0 100px 0;
+    margin: 100px 150px 0 150px;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.letYourBusinessGrow > button {
+    background-color: #954CED;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.brandAwarenessTitle {
+    font-weight: 700;
+    font-size: 96px;
+
+    line-height: 100px;
+    margin-right: 50%;
+}
+
+.brandAwarenessInfo {
+    font-weight: 400;
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-right: 66%;
+}
+
+.brandAwarenessContainer {
+    margin: 130px 150px;
+}
+
+.brandAwarenessSocial > a > img {
+    position: absolute;
+    width: 80px;
+}
+
+a > .facebook {
+    position: absolute;
+    margin-left: 95vh;
+    margin-top: 5vh;
+}
+
+a > .twitter {
+    position: absolute;
+    margin-left: 110vh;
+    margin-top: 15vh;
+}
+
+a > .instagram {
+    position: absolute;
+    margin-left: 130vh;
+    margin-top: 5vh;
+}
+
+a > .tiktok {
+    position: absolute;
+    margin-left: 150vh;
+    margin-top: 15vh;
+}
+
+.commerceBrands {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 20vh;
+    background-color: #181818;
+    color: #F5F5F5;
+}
+
+.footerContainer {
+    margin: 0 150px;
+}
+
+.footerLogo {
+    margin-top: 4%;
+}
+
+.forWho {
+    position: absolute;
+    display: flex;
+    margin: 20px 260px 20px 260px;
+}
+
+a > p {
+    margin-left: 60px;
+}
+
+.footerContainer > button {
+    position: absolute;
+    background-color: #954CED;
+    margin-left: 109vh;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.download {
+    position: absolute;
+    margin-left: 127vh;
+    margin-top: 5px;
+}
+
+.footerLine {
+    border-bottom: solid 1px #444444;
+    margin-top: 20px;
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+    color: #B9B9B9;
+}
+
+.policies {
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+    color: #B9B9B9;
+}
+
+.policy:hover {
+    color: #954CED;
+}
+
+.termsSeller:hover {
+    color: #954CED;
+}
+
+.termsCustomer:hover {
+    color: #954CED;
+}
+
+.policies > a > p {
+    text-decoration: underline;
+    margin-left: 15px;
+}
+

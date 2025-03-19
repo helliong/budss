@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+    <link rel="stylesheet" href="assets/css/adaptive.css">
+    <link rel="shortcut icon" href="assets/img/svg/logo.png" type="image/png">
+    <title>Budss</title>
+</head>
+<body>
+
+<header>
+
+    <div class="header">
+
+<!--        <div class="burgerMenu">-->
+<!--            <div class="burgerMenuContainer">-->
+<!--                <div class="burgerMenuButton">-->
+<!--                    <button>-->
+<!--                        Contact sales-->
+<!--                    </button>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class="nav">
+            <div class="navContainer">
+                <a href="#" class="business">For Business</a>
+                <a href="#" class="customers">For Customers</a>
+            </div>
+        </div>
+
+        <div class="HeaderInfoContainer">
+            <div class="logoAndButton">
+                <div class="logo">
+                    <img src="assets/img/svg/logobudss.svg" alt="Logo budss">
+                </div>
+
+                <div class="buttonHeader">
+                    <button id="headerButton">Contact sales</button>
+                </div>
+
+                <div class="burger">
+                    <div class="bur1"></div>
+                    <div class="bur2"></div>
+                    <div class="bur3"></div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="cookie" id="cookie">
+            <div class="cookieBody">
+                <div class="buttonsCookie">
+                    <div class="closeCookie" id="closeCookie"><img src="assets/img/svg/close.svg" alt=""></div>
+                    <div class="buttonsCookie">
+                        <button class="buttonAccept" id="buttonAccept">Accept</button>
+                        <button class="buttonDecline" id="buttonDecline">Decline</button>
+                    </div>
+                </div>
+                <div class="cookieInfo">
+                    <p>This website uses cookies to ensure you get the best experience on our website. They also <br>
+                        allow
+                        us to analyze user behavior in order to constantly improve the website for you.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="popUp" id="popUp">
+            <div class="popUpContainer">
+                <div class="popUpBody">
+                    <div class="closePopUp" id="closePopUp">
+                        <img src="assets/img/svg/close.svg" alt="">
+                    </div>
+                    <div class="popUpName">
+                        <form action="#" class="form" id="addForm">
+                            <p>Name <font color="red">*</font></p>
+                            <div class="inputBox">
+                                <input type="text" placeholder="Enter name" name="name" class="input jsInput">
+                                <span class="error" id="nameError">This field is required.</span>
+                            </div>
+
+                            <p>Email <font color="red">*</font></p>
+                            <div class="inputBox">
+                                <input type="email" placeholder="Enter email" name="email" class="input jsInput jsInputEmail">
+                                <span class="error" id="emailError">This field is required.</span>
+                            </div>
+
+                            <p>Phone number <font color="red">*</font></p>
+                            <img src="assets/img/svg/artwork.svg" alt="US flag" class="phoneNumberImg">
+                            <div class="inputBox">
+                                <input type="tel" placeholder="+1 900 000 00 00 " name="Telephone" class="input jsInput jsInputPhone">
+                                <span class="error" id="phoneError">This field is required.</span>
+                            </div>
+
+                            <p>Company</p>
+                            <input type="text" placeholder="Enter company" class="input">
+
+                            <p>Website/store URL</p>
+                            <input type="text" placeholder="Enter Website/Store URL" class="input">
+
+                            <span class="error" id="formError">Please fill in all required fields.</span>
+
+                            <p class="Policy">By submitting this form you are agreeing to Budss’s <br>
+                                <span>Privacy Policy</span> and <span>Terms of Use</span></p>
+
+                            <button type="submit" class="sendButton" id="sendButton">Contact sales</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popUp thanksPopUp" id="thanksPopUp">
+            <div class="popUpContainer">
+                <div class="popUpBody">
+                    <div class="closePopUp" id="closeThanksPopUp">
+                        <img src="assets/img/svg/close.svg" alt="">
+                    </div>
+                    <div class="popUpName">
+                        <img src="assets/img/svg/popup_Thanks.svg" alt="Thank you image">
+                        <h2>Thank you!</h2>
+                        <p>Thank you, we have received your application and will contact you soon!</p>
+                        <button id="superButton">Super!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hero">
+            <div class="heroContainer">
+                <p class="title">Everyone <br> is an Influencer</p>
+                <p class="info">Budss is a payments as a service and WOM engine dedicated <br> to acquisition and
+                    retention of customers
+                    to your business.</p>
+                <div class="buttonHero">
+                    <button id="heroButton">Contact sales</button>
+                </div>
+            </div>
+            <div class="girlHeader">
+                <img src="assets/img/svg/girlheader.svg" alt="girlHeader">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main">
+        <div class="about">
+            <div class="d2"></div>
+            <div class="aboutContainer">
+                <p class="aboutTitle">About Budss</p>
+                <p class="aboutInfo">Payment as a service, powered seamlessly by our network of shoppers </p>
+                <div class="aboutGoodsFirstRow">
+                    <div class="firstGood">
+                        <img src="assets/img/svg/star.svg" alt="star" class="goodsImg">
+                        <p class="goodTitle">Contactless</p>
+                        <p class="goodInfo">Budss uses near field communication (NFC) for making contactless
+                            payments.</p>
+                    </div>
+                    <div class="secondGood">
+                        <img src="assets/img/svg/arrow.svg" alt="arrow" class="goodsImg">
+                        <p class="goodTitle">Increased Buying Power</p>
+                        <p class="goodInfo">Returning customers spend up to 3X more.</p>
+                    </div>
+                </div>
+
+                <div class="aboutGoodsSecondRow">
+                    <div class="thirdGood">
+                        <img src="assets/img/svg/wave.svg" alt="wave" class="goodsImg">
+                        <p class="goodTitle">Analytics & Insights</p>
+                        <p class="goodInfo">Gain a holistic view into your customers’ buying behavior & purchasing
+                            patterns. </p>
+                    </div>
+                    <div class="fourthGood">
+                        <img src="assets/img/svg/chain.svg" alt="chain" class="goodsImg">
+                        <p class="goodTitle">Fraud Protection</p>
+                        <p class="goodInfo">Budss handles all payments with a fraud prevention algorithm to flag high
+                            risk purchases & a
+                            user
+                            set PIN code to keep payment info secure. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sideLogo">
+                <img src="assets/img/svg/aboutSideLogo.svg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="howWorks">
+        <div class="budssWorks">
+            <div class="firstRow">
+                <div class="tickerItemRight"><p class="colorFirstRow"> How Budss Works</p></div>
+                <div class="tickerItemRight"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemRight"><p class="colorFirstRow"> How Budss Works</p></div>
+                <div class="tickerItemRight"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemRight"><p class="colorFirstRow"> How Budss Works</p></div>
+                <div class="tickerItemRight"><p class="noColor">How Budss Works</p></div>
+            </div>
+            <div class="secondRow">
+                <div class="tickerItemLeft"><p class="colorSecondRow"> How Budss Works</p></div>
+                <div class="tickerItemLeft"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemLeft"><p class="colorSecondRow"> How Budss Works</p></div>
+                <div class="tickerItemLeft"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemLeft"><p class="colorSecondRow"> How Budss Works</p></div>
+                <div class="tickerItemLeft"><p class="noColor">How Budss Works</p></div>
+            </div>
+            <div class="thirdRow">
+                <div class="tickerItemRightFaster"><p class="colorThirdRow"> How Budss Works</p></div>
+                <div class="tickerItemRightFaster"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemRightFaster"><p class="colorThirdRow"> How Budss Works</p></div>
+                <div class="tickerItemRightFaster"><p class="noColor">How Budss Works</p></div>
+                <div class="tickerItemRightFaster"><p class="colorThirdRow"> How Budss Works</p></div>
+                <div class="tickerItemRightFaster"><p class="noColor">How Budss Works</p></div>
+            </div>
+        </div>
+        <div class="backgroundAnimation">
+            <div class="phone">
+                <img src="assets/img/svg/phone.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="percents">
+        <div class="percentages">
+            <div class="firstPercentage">
+                <p class="percentageTitle">15%</p>
+                <p class="percentageInfo">Increase in Purchase Amount</p>
+            </div>
+            <div class="secondPercentage">
+                <p class="percentageTitle">30%</p>
+                <p class="percentageInfo">Growth in Annual Sales</p>
+            </div>
+            <div class="thirdPercentage">
+                <p class="percentageTitle">10%</p>
+                <p class="percentageInfo">Growth in New Customers</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="whyBudss">
+        <div class="whyBudssContainer">
+            <div class="d3"></div>
+            <div class="whyBudssInfo">
+                <div class="whyBudssTitle">
+                    <p>Why Budss</p>
+                </div>
+                <div class="whyBudssSolutions">
+                    <p>We Provide Advanced Payment Solutions To Grow Your Business</p>
+
+                </div>
+            </div>
+            <div class="whyBudsImgsFirstRow">
+                <img src="assets/img/svg/banner1.svg" alt="banner1" class="img1">
+                <img src="assets/img/svg/banner2.svg" alt="banner2" class="img2">
+            </div>
+            <div class="whyBudsImgsSecondRow">
+                <img src="assets/img/svg/banner3.svg" alt="banner3" class="img3">
+                <img src="assets/img/svg/banner4.svg" alt="banner4" class="img4">
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="letYourBusinessGrow">
+            <p>Let Your Business Grow</p>
+            <button id="brandsButton">Contact sales</button>
+        </div>
+        <div class="brandAwareness">
+            <div class="brandAwarenessSocial">
+                <a href="#"><img src="assets/img/svg/facebook.svg" alt="facebook" class="facebook"></a>
+                <a href="#"><img src="assets/img/svg/twitter.svg" alt="twitter" class="twitter"></a>
+                <a href="#"><img src="assets/img/svg/instagram.svg" alt="instagram" class="instagram"></a>
+                <a href="#"><img src="assets/img/svg/tiktok.svg" alt="tiktok" class="tiktok"></a>
+            </div>
+            <div class="brandAwarenessContainer">
+                <p class="brandAwarenessTitle">Your Brand Awareness Maters</p>
+                <p class="brandAwarenessInfo">Budss is a husle free solution to put your brand on any digital surface
+                    including Instagram, Facebook, Twitter and TikTok</p>
+                <div class="commerceBrands">
+                    <img src="assets/img/svg/woo_commerce.svg" alt="wooCommerce" class="woo_commerce">
+                    <img src="assets/img/svg/shopify.svg" alt="shopify" class="shopify">
+                    <img src="assets/img/svg/square.svg" alt="square" class="square">
+                    <img src="assets/img/svg/squarespace.svg" alt="squarespace" class="squarespace">
+                    <img src="assets/img/svg/clover.svg" alt="clover" class="clover">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footerLinePhone"></div>
+        <div class="footerContainer">
+            <div class="forWho">
+                <a href="#" onclick="return false"><p>For Business</p></a>
+                <a href="#" onclick="return false"><p>For Customers</p></a>
+            </div>
+
+            <button id="footerButton">Contact sales</button>
+
+            <div class="download">
+                <a href="#" onclick="return false"><img src="assets/img/svg/appstore.svg"
+                                                        alt="Download at appstore"></a>
+                <a href="#" onclick="return false"><img src="assets/img/svg/googleplay.svg"
+                                                        alt="Download at googleplay"></a>
+            </div>
+
+            <div class="footerLogo">
+                <img src="assets/img/svg/logobudss.svg" alt="footerLogo">
+            </div>
+            <div class="footerLine"></div>
+            <div class="footerCopyright">
+                <p class="copyright">© Copyright 2023, All Rights Reserved by Budss</p>
+                <div class="policies">
+                    <a href="#" onclick="return false"><p class="policy">Privacy policy</p></a>
+                    <a href="#" onclick="return false"><p class="termsSeller">Terms Of Use - Seller</p></a>
+                    <a href="#" onclick="return false"><p class="termsCustomer">Terms of Use - Sellers & Customers</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
